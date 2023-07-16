@@ -1,0 +1,122 @@
+<footer class="footer">
+    <div class="container text-center square-footer">
+        <div class="row justify-content-center">
+            <div class="col social-icon">
+                <a href="https://www.linkedin.com/in/diego-seba-alias/" target="_blank">
+                    <i class="fab fa-linkedin"></i>
+                </a>
+                <a href="#">
+                    <i class="fab fa-instagram" target="_blank"></i>
+                </a>
+                <a href="https://github.com/DiegoAlias" target="_blank">
+                    <i class="fab fa-github"></i>
+                </a>
+            </div>
+        </div>
+        <div>
+            <p>Copyright 2023 - Todos los derechos reservados.</p>
+        </div>
+    </div>
+</footer>
+
+
+
+
+
+
+
+<!-- BOOSTRAP -->
+<script src="	https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"></script>
+
+<!-- INDEX GRID -->
+<script>
+    const banner = document.getElementsByClassName('banner')[0];
+    const blocks = document.getElementsByClassName('blocks');
+
+    for (var i = 1; i < 400; i++) {
+        banner.innerHTML += "<div class='blocks'></div>";
+        blocks[i].style.animationDelay = `${i * 0.05}s`;
+    }
+
+</script>
+
+<!-- AOS -->
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+<script>
+    AOS.init();
+</script>
+
+<!-- CLOSE MENU -->
+
+<script>
+    document.addEventListener('DOMContentLoaded', function () {
+        var checkbox = document.querySelector('.navigation__checkbox');
+        var navigationLinks = document.querySelectorAll('.navigation__link');
+
+        // Cerrar el menú al hacer clic en un enlace
+        navigationLinks.forEach(function (link) {
+            link.addEventListener('click', function () {
+                checkbox.checked = false;
+            });
+        });
+    });
+
+</script>
+
+<!-- JS CUSTOM -->
+<!-- <script src="../js/main.js"></script> -->
+
+
+<!-- WATER RIPLE -->
+<!-- jQuery -->
+<script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+
+<!-- jQuery Ripples JS -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.ripples/0.5.3/jquery.ripples.min.js"></script>
+
+<script>
+    $(document).ready(function () {
+        $(".body").ripples({
+            resolution: 600,
+            perturbance: .0002,
+        });
+    });
+</script>
+
+<!-- /* ACHIEVEMENTS */ -->
+<script>
+    function showImageOverlay(event, element) {
+        event.preventDefault();
+        var imageSrc = element.getAttribute('href');
+        var overlayImage = document.getElementById('overlay-image');
+        overlayImage.setAttribute('src', imageSrc);
+        document.getElementById('image-overlay').style.display = 'block';
+    }
+
+    function hideImageOverlay() {
+        document.getElementById('image-overlay').style.display = 'none';
+    }
+
+    function showImageOverlay(event, element) {
+        event.preventDefault(); // Evita que se abra el enlace directamente
+
+        // Obtiene la URL de la imagen del atributo href
+        var imageUrl = element.getAttribute('href');
+
+        // Actualiza la imagen del overlay
+        var overlayImage = document.getElementById('overlay-image');
+        overlayImage.src = imageUrl;
+
+        // Muestra el overlay
+        var imageOverlay = document.getElementById('image-overlay');
+        imageOverlay.style.display = 'flex';
+    }
+
+    function hideImageOverlay() {
+        // Oculta el overlay
+        var imageOverlay = document.getElementById('image-overlay');
+        imageOverlay.style.display = 'none';
+    }
+
+</script>

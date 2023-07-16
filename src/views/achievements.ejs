@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <%- include('partials/head.ejs') %>
+        <title>
+            <%= title %>
+        </title>
+</head>
+
+<body class="body-achievements">
+
+    <div class="container" id="achievements">
+        <div class="row justify-content-start">
+            <div class="col-md-12" id="square-achievements">
+                <div class="ml-3" data-aos="fade-down" data-aos-duration="2000">
+                    <h2 class="text-center" id="title-achievements">
+                        <span>L</span>OGROS
+                    </h2>
+                    <div class="timeline">
+                        <div class="checkpoint">
+                            <div class="checkpoint-info">
+                                <h3 data-aos="fade-down" data-aos-duration="2000">
+                                    LabsXD
+                                </h3>
+                                <p data-aos="zoom-in" data-aos-duration="2000">
+                                    <a href="/img/certificado1.png" class="certifiqued-span"
+                                        onclick="showImageOverlay(event, this)">
+                                        <span>Certificado Dev Edition del Programa XGen - Salesforce</span>
+                                    </a>
+                                    , dirigido a la formación de la futura generación de expertos en transformación
+                                    digital.
+                                </p>
+                                <p data-aos="zoom-in" data-aos-duration="2000">
+                                    Duración: 3 meses
+                                </p>
+                                <p data-aos="zoom-in" data-aos-duration="2000">
+                                    Finalizado: 07/11/2022
+                                </p>
+                            </div>
+                        </div>
+                        <div class="checkpoint">
+                            <div class="checkpoint-info">
+                                <h3 data-aos="fade-down" data-aos-duration="2000">
+                                    Testing Manual
+                                </h3>
+                                <p data-aos="zoom-in" data-aos-duration="2000">
+                                    <a href="/img/certificado2.png" class="certifiqued-span"
+                                        onclick="showImageOverlay(event, this)"><span>Certificado Testing
+                                            Manual,
+                                            Ágil</span></a>
+                                    y con Herramientas del trayecto formativo
+                                    Programación/Testing de la Universidad Tecnológica Nacional.
+                                </p>
+                                <p data-aos="zoom-in" data-aos-duration="2000">
+                                    Duración: 4 meses
+                                </p>
+                                <p data-aos="zoom-in" data-aos-duration="2000">
+                                    Finalizado: 21/04/2023
+                                </p>
+                            </div>
+                        </div>
+                        <div class="checkpoint">
+                            <div class="checkpoint-info">
+                                <h3 data-aos="fade-down" data-aos-duration="2000">
+                                    Microsoft AZ-900
+                                </h3>
+                                <p data-aos="zoom-in" data-aos-duration="2000">
+                                    <a href="/img/certificado3.png" class="certifiqued-span"
+                                        onclick="showImageOverlay(event, this)"><span>Microsoft
+                                            Certified</span></a>
+                                    Azure Fundamentals - AZ-900
+                                </p>
+                                <p data-aos="zoom-in" data-aos-duration="2000">
+                                    Duración: 3 meses
+                                </p>
+                                <p data-aos="zoom-in" data-aos-duration="2000">
+                                    Finalizado: 16/06/2023
+                                </p>
+                            </div>
+                        </div>
+                        <div id="image-overlay" onclick="hideImageOverlay()">
+                            <div class="image-container">
+                                <span class="close-icon" onclick="hideImageOverlay()">&times;</span>
+                                <img id="overlay-image" src="" alt="Enlace de imagen">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>
