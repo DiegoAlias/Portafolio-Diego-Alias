@@ -5,9 +5,8 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "dev": "nodemon src/index.js",
-    "start": "node src/index.js",
-    "deploy": "npx gh-pages -d ."
+    
+    "start": "node src/index.js"
   },
   "keywords": [],
   "author": "",
