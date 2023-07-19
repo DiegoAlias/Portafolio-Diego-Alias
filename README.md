@@ -4,21 +4,23 @@ Este es mi portafolio personal, donde muestro algunos de mis proyectos y habilid
 
 ## Proyectos Destacados
 
-1. **Proyecto 1**: Descripción breve del proyecto y tecnologías utilizadas.
-2. **Proyecto 2**: Descripción breve del proyecto y tecnologías utilizadas.
-3. **Proyecto 3**: Descripción breve del proyecto y tecnologías utilizadas.
+1. Telemetrix: Esta plataforma consiste en desarrollar un sistema de visualización utilizando las interfaces de la libreria de highcharts destinadas a las industrias en general.
+2. Credenciales para centro médico: El objetivo de esta plataforma consistió en desarrollar un sistema para la generación y administración de credenciales destinadas a los beneficiarios del centro médico.
+3. Ecommerce: Proyecto realizado como parte del programa de formación del Instituto Belgrano, con enfoque en el lenguaje de programación JAVA.
 
 ## Tecnologías Utilizadas
 
 - HTML
 - CSS
 - JavaScript
+- Java
 
 ## Cómo Ejecutar el Proyecto
 
-1. Clona este repositorio: `git clone https://github.com/tu-usuario/tu-repositorio.git`
-2. Navega hasta la carpeta del proyecto: `cd tu-repositorio`
-3. Abre el archivo `index.html` en tu navegador preferido.
+1. Clona este repositorio: https://github.com/DiegoAlias/Portafolio-Diego-Alias.git
+2. Debes tener intalado NodeJS.
+3. Navega hasta la carpeta del proyecto.
+4. Abre el archivo `index.js` en tu navegador preferido.
 
 ## Contribuciones
 
@@ -26,6 +28,9 @@ Este es mi portafolio personal, donde muestro algunos de mis proyectos y habilid
 
 ## Contacto
 
-Si tienes alguna pregunta o sugerencia, no dudes en contactarme a través de mi correo electrónico diego_alias_m@hotmail.com.
+Si tienes alguna pregunta o sugerencia, no dudes en contactarme a través de mi correo electrónico diego_alias_m@hotmail.com o mis redes sociales.
+
+- Instagram: https://www.instagram.com/diegoalias.devs/
+- linkedin: https://www.linkedin.com/in/diego-seba-alias/
 
 ¡Gracias por visitar mi portafolio!
