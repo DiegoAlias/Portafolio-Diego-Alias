@@ -1,20 +1,26 @@
-<footer class="footer">
+<footer class="footer mt-4">
     <div class="container text-center square-footer">
         <div class="row justify-content-center">
             <div class="col social-icon">
                 <a href="https://www.linkedin.com/in/diego-seba-alias/" target="_blank">
                     <i class="fab fa-linkedin"></i>
                 </a>
-                <a href="#">
+                <a href="https://www.instagram.com/diegoalias.devs/">
                     <i class="fab fa-instagram" target="_blank"></i>
                 </a>
                 <a href="https://github.com/DiegoAlias" target="_blank">
                     <i class="fab fa-github"></i>
                 </a>
+                <a href="https://api.whatsapp.com/send?phone=5402616689240" target="_blank" rel="noopener noreferrer">
+                    <i class="fab fa-whatsapp"></i>
+                </a>
+                <a href="https://t.me/DiegoAlias10" target="_blank" rel="noopener noreferrer">
+                    <i class="fa-brands fa-telegram"></i>
+                </a>
             </div>
         </div>
         <div>
-            <p>Copyright 2023 - Todos los derechos reservados.</p>
+            <p class="mt-4">Copyright 2023 - Todos los derechos reservados.</p>
         </div>
     </div>
 </footer>
@@ -22,8 +28,8 @@
 
 
 
-
-
+<!-- ANIMEJS -->
+<script src="anime.min.js"></script>
 
 <!-- BOOSTRAP -->
 <script src="	https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"></script>
@@ -45,6 +51,28 @@
 
 <script>
     AOS.init();
+</script>
+
+<!-- HOME -->
+
+<script>
+    // Ocultar la imagen de perfil-2, h3 y h4 inicialmente
+    //document.getElementById("perfil-2-img").style.opacity = "0";
+    document.getElementById("home-h3-1").style.opacity = "0";
+    document.getElementById("home-h3").style.opacity = "0";
+    document.querySelector(".perfil-2 h4").style.opacity = "0";
+
+    // Retrasar la aparición de la imagen de perfil-2, h3 y h4 en 10 segundos
+    setTimeout(function () {
+        // Mostrar la imagen de perfil-2 con animación
+        //document.getElementById("perfil-2-img").style.opacity = "1";
+
+        // Mostrar los elementos h3 y h4 con animación
+        document.getElementById("home-h3-1").style.opacity = "1";
+        document.getElementById("home-h3").style.opacity = "1";
+        document.querySelector(".perfil-2 h4").style.opacity = "1";
+    }, 11500); // 10 segundos (10000 milisegundos)
+
 </script>
 
 <!-- CLOSE MENU -->
