@@ -27,12 +27,13 @@
 
 
 
-
 <!-- ANIMEJS -->
 <script src="anime.min.js"></script>
 
+
 <!-- BOOSTRAP -->
-<script src="	https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"></script>
+<script src="	https://cdn.jsdel}ivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"></script>
+
 
 <!-- INDEX GRID -->
 <script>
@@ -46,6 +47,7 @@
 
 </script>
 
+
 <!-- AOS -->
 <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 
@@ -53,27 +55,24 @@
     AOS.init();
 </script>
 
+
 <!-- HOME -->
 
 <script>
-    // Ocultar la imagen de perfil-2, h3 y h4 inicialmente
-    //document.getElementById("perfil-2-img").style.opacity = "0";
     document.getElementById("home-h3-1").style.opacity = "0";
     document.getElementById("home-h3").style.opacity = "0";
     document.querySelector(".perfil-2 h4").style.opacity = "0";
 
-    // Retrasar la aparición de la imagen de perfil-2, h3 y h4 en 10 segundos
     setTimeout(function () {
-        // Mostrar la imagen de perfil-2 con animación
-        //document.getElementById("perfil-2-img").style.opacity = "1";
 
         // Mostrar los elementos h3 y h4 con animación
         document.getElementById("home-h3-1").style.opacity = "1";
         document.getElementById("home-h3").style.opacity = "1";
         document.querySelector(".perfil-2 h4").style.opacity = "1";
-    }, 11500); // 10 segundos (10000 milisegundos)
+    }, 11500);
 
 </script>
+
 
 <!-- CLOSE MENU -->
 
@@ -92,13 +91,10 @@
 
 </script>
 
-<!-- JS CUSTOM -->
-<!-- <script src="../js/main.js"></script> -->
-
 
 <!-- WATER RIPLE -->
 <!-- jQuery -->
-<script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+<!-- <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script> -->
 
 <!-- jQuery Ripples JS -->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.ripples/0.5.3/jquery.ripples.min.js"></script>
@@ -111,6 +107,7 @@
         });
     });
 </script>
+
 
 <!-- /* ACHIEVEMENTS */ -->
 <script>
@@ -148,3 +145,60 @@
     }
 
 </script>
+
+
+<!-- CONTACT VALIDATE -->
+
+<script>
+
+    const $submit = document.getElementById("submit");
+    const $nombre = document.getElementById("nombre");
+    const $email = document.getElementById("email");
+    const $mensaje = document.getElementById("mensaje");
+
+    function validateInputs() {
+        const nombreRegex = /^[a-zA-ZáéíóúÁÉÍÓÚñÑ]+( [a-zA-ZáéíóúÁÉÍÓÚñÑ]+)*$/;
+        const emailRegex = /^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$/;
+        const mensajeRegex = /^[a-zA-Z0-9.,!?¡¿'"():;\-_\s]{1,255}$/;
+
+        if ($nombre.value === "") {
+            alert("Complete el campo nombre");
+            return false;
+        }
+        if ($email.value === "") {
+            alert("Complete el campo email");
+            return false;
+        }
+        if ($mensaje.value === "") {
+            alert("Complete el campo mensaje");
+            return false;
+        }
+
+        if (!nombreRegex.test($nombre.value)) {
+            alert("Ingrese el formato correcto en el nombre");
+            $nombre.style.border = "1px solid red";
+
+        }
+        if (!emailRegex.test($email.value)) {
+            alert("Ingrese el formato correcto en el email");
+            $email.style.border = "1px solid red";
+
+        }
+        if (!mensajeRegex.test($mensaje.value)) {
+            alert("Ingrese el formato correcto en el mensaje");
+            $mensaje.style.border = "1px solid red";
+
+        }
+        //return true;
+    }
+
+    document.addEventListener("click", (e) => {
+        if (e.target === $submit) {
+            e.preventDefault();
+            validateInputs();
+        }
+    });
+</script>
+
+<!-- JS CUSTOM -->
+<script src="/js/main.js"></script>
