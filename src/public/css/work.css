@@ -1,0 +1,52 @@
+/* WORK */
+
+#square-work {
+    /* background-color: rgba(2, 24, 34, 0.1); */
+    margin-top: 50px;
+    width: auto;
+    position: relative;
+    border-radius: 5px;
+    /* backdrop-filter: blur(2px); */
+}
+
+.slider {
+    position: relative;
+    margin: auto;
+    width: 120%;
+    display: grid;
+    place-items: center;
+    overflow: hidden;
+}
+
+.slide-track {
+    display: flex;
+    animation: scroll 15s linear infinite;
+    width: calc(250px * 3);
+}
+
+@keyframes scroll {
+    0% {
+        transform: translateX(0);
+    }
+
+    /* Ajusta el valor según la cantidad de imágenes */
+    100% {
+        transform: translateX(calc(-250px * 3));
+    }
+}
+
+#img-work {
+    width: 240px;
+    height: 180px;
+    transition: transform 1s;
+}
+
+#img-work:hover {
+    transform: translateZ(20px);
+}
+
+#btn-work {
+    margin-top: 30px;
+    background-color: rgba(40, 116, 116, 0.795);
+    border: 1px solid rgba(59, 173, 173, 0.795);
+}

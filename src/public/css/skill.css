@@ -1,0 +1,57 @@
+/* SKILL */
+
+#square-skill {
+    /* background-color: rgba(2, 24, 34, 0.1); */
+    margin-top: 100px;
+    padding: 20px;
+    width: 70%;
+    border-radius: 5px;
+    /* backdrop-filter: blur(2px); */
+}
+
+#title-skill {
+    color: #ffffff;
+    text-align: right;
+    font-weight: bold;
+    position: relative;
+    z-index: 1;
+}
+
+.icon {
+    color: #ffffff;
+    font-size: 40px;
+    text-align: center;
+    margin-top: 15px;
+}
+
+.fa-brands,
+.fab,
+.fas {
+    margin-right: 10px;
+    transition: .5s, color .10s;
+    -webkit-transition: .5s, color .10s;
+    -moz-transition: .5s, color .10s;
+}
+
+.fa-brands:hover,
+.fab:hover,
+.fas:hover {
+    color: rgb(26, 143, 143);
+    transform: translatey(-10px);
+    -webkit-transform: translatey(-10px);
+    -moz-transform: translatey(-10px);
+}
+
+.icon-container {
+    align-items: center;
+    transition: transform 0.5s;
+}
+
+.icon-container:hover {
+    transform: translateY(-10px);
+}
+
+#blender-ico:hover,
+#threejs-ico:hover {
+    color: rgb(26, 143, 143);
+}

@@ -1,0 +1,69 @@
+/* MY WORKS */
+
+#miBoton {
+    color: aliceblue;
+    text-decoration: none;
+    position: fixed;
+    top: 30px;
+    right: 40px;
+    font-size: 15px;
+    font-weight: bold;
+    background-color: rgb(26, 143, 143);
+    padding: 17px 7px 17px 7px;
+    border-radius: 50%;
+}
+
+
+.myworks-header {
+    margin-bottom: 30px;
+    padding: 0px 80px 0px 80px;
+}
+
+.myworks h2 {
+    color: #ffffff;
+    font-weight: bold;
+    padding-top: 50px;
+    margin-bottom: 80px;
+}
+
+.video-mywork {
+    border-radius: 5px;
+    margin-top: 10px;
+    padding-bottom: 30px;
+    width: 80%;
+}
+
+#myworks-img-1 {
+    margin-top: 50px;
+    padding-bottom: 30px;
+    width: 80%;
+}
+
+.myworks-img-right-1 {
+    color: #ffffff;
+}
+
+.myworks-img-right-1 h3 {
+    font-size: 30px;
+    font-weight: bold;
+    line-height: 2;
+}
+
+.myworks-img-right-1 p {
+    line-height: 2;
+    padding-bottom: 1px;
+}
+
+.myworks-img-right-1 a {
+    font-weight: bold;
+    color: rgb(240, 180, 152);
+    text-decoration: none;
+}
+
+#myworks-span {
+    font-size: 20px;
+}
+
+.footer-myworks {
+    margin-top: 100px;
+}
