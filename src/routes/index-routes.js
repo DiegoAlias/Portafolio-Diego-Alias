@@ -15,4 +15,6 @@ router.get("/myworks", (req, res) => res.render("myworks", { title: "Proyectos" 
 
 router.get("/contact", (req, res) => res.render("contact", { title: "Contacto" }))
 
+router.get("/contact", (req, res) => res.render("contact", { title: "Contacto" }))
+
 export default router
