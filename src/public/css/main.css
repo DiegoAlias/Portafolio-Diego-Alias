@@ -6,8 +6,8 @@
 }
 
 body {
-    /* background-image: url('/img/forest1.jpg'); */
-    background: #000113;
+    /* background: #021f6e; */
+    background-image: radial-gradient(circle at 49.85% 48.3%, #3a23b1 0, #1b1c7e 25%, #0e1e53 50%, #00002b 75%, #000000 100%);
     background-position: center left;
     background-size: cover;
     width: 100vw;
@@ -73,9 +73,8 @@ body {
 .navigation__link {
     display: inline-block;
     font-size: 20px;
-    font-weight: 300;
-    color: #fff;
-    font-weight: bold;
+    font-weight: 900;
+    color: #ffffff;
     padding: 20px;
     text-transform: uppercase;
     text-decoration: none;

@@ -45,7 +45,7 @@ section {
 }
 
 .home-title span {
-    color: #b73cb9;
+    color: #cf0b1b;
     font-weight: 800;
     font-size: 150px;
 }
@@ -101,8 +101,8 @@ section {
     50% {
         opacity: 1;
         /* background: linear-gradient(to top, #151515, transparent), url(/img/perfil-1.jpg); */
-        background: url(/img/perfil-11.jpg);
-        background-position: center center;
+        background: url(/img/montaña.jpg);
+        background-position: center bottom;
         background-repeat: no-repeat;
         background-attachment: fixed;
         background-size: cover;
@@ -112,8 +112,8 @@ section {
         opacity: 1;
         top: 0px;
         /* background: linear-gradient(to top, #151515, transparent), url(/img/perfil-1.jpg); */
-        background: url(/img/perfil-11.jpg);
-        background-position: center center;
+        background: url(/img/montaña.jpg);
+        background-position: center bottom;
         background-repeat: no-repeat;
         background-attachment: fixed;
         background-size: cover;
