@@ -101,7 +101,7 @@ section {
     50% {
         opacity: 1;
         /* background: linear-gradient(to top, #151515, transparent), url(/img/perfil-1.jpg); */
-        background: url(/img/montaña.jpg);
+        background: url(/img/perfil11.jpg);
         background-position: center bottom;
         background-repeat: no-repeat;
         background-attachment: fixed;
@@ -112,7 +112,7 @@ section {
         opacity: 1;
         top: 0px;
         /* background: linear-gradient(to top, #151515, transparent), url(/img/perfil-1.jpg); */
-        background: url(/img/montaña.jpg);
+        background: url(/img/perfil11.jpg);
         background-position: center bottom;
         background-repeat: no-repeat;
         background-attachment: fixed;
