@@ -34,8 +34,7 @@
 span {
     font-size: 1.5em;
     font-weight: bold;
-    color: red;
-    /* color: rgb(38, 140, 165); */
+    color: rgb(38, 140, 165);
 }
 
 .text-about {

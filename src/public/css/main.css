@@ -7,7 +7,7 @@
 
 body {
     /* background: #275cf0; */
-    background-image: radial-gradient(circle at 49.85% 48.3%, #3a23b1 0, #1b1c7e 25%, #0e1e53 50%, #00002b 75%, #000000 100%);
+    background-image: radial-gradient(circle at 50% 50%, #52534f 0, #353242 25%, #0a1335 50%, #00002a 75%, #000022 100%);
     background-position: center left;
     background-size: cover;
     width: 100vw;
