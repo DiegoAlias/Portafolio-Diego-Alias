@@ -18,10 +18,35 @@
     overflow: hidden;
 }
 
+.slider h4 {
+    color: #fff;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: -20px;
+}
+
 .slide-track {
     display: flex;
     animation: scroll 15s linear infinite;
     width: calc(250px * 3);
+}
+
+@media (max-width: 768px) {
+    .slider {
+        width: auto;
+        /* Ancho automático para adaptarse al contenido */
+    }
+
+    .slide-track {
+        display: block;
+        /* Cambia a display bloque para mostrar solo una imagen */
+        animation: none;
+        /* Detiene la animación */
+        width: 240px;
+        /* Ancho de una sola imagen */
+        transform: translateX(0);
+        /* Reinicia la posición */
+    }
 }
 
 @keyframes scroll {
