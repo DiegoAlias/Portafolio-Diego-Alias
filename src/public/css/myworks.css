@@ -26,6 +26,10 @@
     margin-bottom: 80px;
 }
 
+.text-myworks {
+    text-align: justify;
+}
+
 .video-mywork {
     border-radius: 5px;
     margin-top: 10px;
