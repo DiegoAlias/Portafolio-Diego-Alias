@@ -27,7 +27,7 @@
 .fa-brands,
 .fab,
 .fas {
-    margin-right: 10px;
+    margin: 10px;
     transition: .5s, color .10s;
     -webkit-transition: .5s, color .10s;
     -moz-transition: .5s, color .10s;
@@ -52,6 +52,7 @@
 }
 
 #blender-ico:hover,
-#threejs-ico:hover {
+#threejs-ico:hover,
+#tailwind-ico:hover {
     color: rgb(26, 143, 143);
 }

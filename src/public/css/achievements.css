@@ -25,7 +25,6 @@
 }
 
 h3 {
-    font-size: 20px;
     color: #ffffff;
     font-weight: bold;
     padding-left: 20px;
@@ -48,24 +47,25 @@ h3 {
     color: #fff;
     border: 2px solid #888;
     border-radius: 1em;
-    padding: 5px;
+    padding: 3px;
+}
+
+.checkpoint-info h3 {
+    font-size: 22px;
 }
 
 .checkpoint a {
-    text-decoration: none
+    text-decoration: none;
 }
 
 .checkpoint p {
-    padding: 10px 20px 10px 20px;
-    margin-bottom: 5px;
+    font-size: 15px;
+    padding: 10px 10px 10px 20px;
+    margin-bottom: -5px;
 }
 
-/* .text-achievements {
-    text-align: justify;
-} */
-
 .certifiqued-span {
-    font-size: 12px;
+    font-size: 10px;
     font-weight: bold;
 }
 
